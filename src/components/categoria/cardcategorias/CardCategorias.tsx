@@ -27,7 +27,6 @@ function CardCategorias({ categoria }: CardCategoriasProps) {
         </div>
 
     </div>
-      
     )
 }
 
