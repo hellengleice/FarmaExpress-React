@@ -3,7 +3,6 @@ import { atualizar, buscar, cadastrar } from "../../../services/Service";
 import Categoria from "../../../models/Categoria";
 import { useNavigate, useParams } from "react-router-dom";
 
-
 function FormCategoria() {
   const navigate = useNavigate();
   const { id } = useParams<{ id: string }>();

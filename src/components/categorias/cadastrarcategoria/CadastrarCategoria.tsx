@@ -63,7 +63,7 @@ function CadastrarCategoria() {
         </div>
 
         <button
-          className="rounded text-white bg-blue-400 hover:bg-blue-300 w-1/2 py-2 mx-auto flex justify-center"
+          className="rounded text-white bg-indigo-500 hover:bg-indigo-800 w-1/2 py-2 mx-auto flex justify-center"
           type="submit"
         >
           {isLoading ? (
