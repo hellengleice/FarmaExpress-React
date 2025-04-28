@@ -76,8 +76,7 @@ const DeletarCategoria = () => {
                         Não
                     </button>
                     <button
-                        className='w-full text-slate-100 bg-blue-500 
-                                   hover:bg-blue-700 flex items-center justify-center'
+                        className='w-full text-slate-100 bg-blue-500 hover:bg-blue-700 flex items-center justify-center'
                         onClick={deletarCategoria}>
                         {isLoading ?
                             <RotatingLines
